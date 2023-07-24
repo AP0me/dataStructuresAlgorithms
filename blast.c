@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
-  char matches[]="01111000000110111100000011";
+  char matches[]="011100000101101011110000011";
   int nDirection; 
   int nMatcheSize=sizeof(matches)/sizeof(matches[0])-1;
   int nSharpUpCounter=0; int nSharpDownCounter=0;
